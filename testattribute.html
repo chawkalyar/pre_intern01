@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pre Intern</title>
+        <style>
+            input[type=text]
+            {
+                background-color: darkblue;
+            }
+            input[type=number]
+            {
+                background-color: darkgoldenrod;
+            }
+            input[type=password]
+            {
+                background-color: darkorchid;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <div>
+                <input name="First name" type="text" placeholder="First Name"><br>
+                <input name="Last name" type="text" placeholder="Last Name"><br>
+                <input name="name" type="number" placeholder="Age"><br>
+                <input name="password" type="password" placeholder="password"><br>
+            </div>
+
+            <div>
+                Favourite Language?
+                <input name="Language" type="radio" value="java">Java
+                <input name="Language" type="radio" value="java">PHP
+                <input name="Language" type="radio" value="java">Python
+                <input name="Language" type="radio" value="java">C#
+            </div>
+
+            <div>
+                <input name="country" list="countries" placeholder="Country">
+                <datalist id="countries">
+                    <option value="Afghanistan"></option>
+                    <option value="Myanmar"></option>
+                    <option value="Korea"></option>
+                    <option value="Lao"></option>
+                    
+                </datalist>
+            </div>
+        </form>
+    </body>
+</html>
