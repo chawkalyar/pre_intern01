@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test flex</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .body
+            {
+                display: flex;
+                height: 400px;
+            }
+            .left
+            {
+                width: 40%;
+                background-color: white;
+                
+            }
+            .image
+            {
+                
+                padding-right: 100px;
+                padding-left: 100px;
+                padding-top: 80px;
+                
+                
+            }
+            .pp
+            {
+                border-radius: 50%;
+            }
+            
+            .about
+            {
+              
+                background-color: white;
+
+            }
+            .text
+            {
+                padding-top: 100px;
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+            
+            .body2
+            {
+                display: flex;
+                
+                height: 200px;
+               
+            } 
+            .education
+            {
+                width: 100%;
+                background-color:lightskyblue;
+                text-align: center;
+            } 
+
+            .cards{
+                padding-left: 100px;
+                padding-right: 100px;
+                padding-top: 30px;
+ 
+                display: grid;
+                  
+                
+                grid-template-columns: repeat(3,1fr); 
+                grid-auto-rows: auto;
+                  
+                grid-gap: 2rem;
+                  
+                }
+
+
+
+                
+                
+                  
+                .card {
+                 
+                border: 3px solid lightblue;
+                  
+                border-radius: 4px;
+                  
+               background-color: lightblue;
+                  
+                }
+            
+
+            
+        </style>
+
+    </head>
+    <body>
+        
+            
+        <div class="body">
+                
+                <div class="left">
+                    <div class="image">
+                    <img src="pp.jpg" width="200px" height="200px" class="pp">
+                    <h5 style="text-align: center;">HI I AM CHAW KALYAR</h5>
+                    </div>
+                </div>
+                <div class="about">
+                    <div class="text">
+                    <h1 style="color:brown;">About Me</h1>
+                    <p style="text-align: justify;">I am Chaw Kalyar.I was born;September 11,2000.I live in Kalaw.I have a lovely family.I am the eldest and cute girl in my family.I am a fourth year student from University of Computer Studies,Loikaw.My major is Computer Science.
+                        There are many things I like to do,to see and to experience. I want to a web developer.Moreover, I want to be a singer.I like music.
+                    </p>
+                    </div>
+                </div>
+        </div>
+
+        <div class="body2">
+            <div class="cards">
+            <div class="card">       
+                <h3 style="color:brown;" >Education</h3>
+                <i class="fa fa-graduation-cap"></i>Studies at University of Computer Studies,Loikaw<br><br>
+                <i class="fa fa-graduation-cap"></i>Went to No.2 Basic Education High School,Kalaw
+            </div>  
+
+            <div class="card">
+                <h3 style="color: brown;">Contact</h3>
+              <i class="fa fa-phone"></i>&nbsp;&nbsp;<a href="tel:+959252550491" style="text-decoration: none;">09252550491</a><br>
+                <i class="fa fa-envelope"></i>&nbsp;<a href="mailto:chawkalyar@ucsloikaw.edu.mm" style="text-decoration: none;">chawkalyar@ucsloikaw.edu.mm</a><br>
+                <i class="fa fa-facebook"></i>&nbsp;&nbsp;<a href="https://www.facebook.com/chawkalyar11" style="text-decoration: none;">Chaw Kalyar</a>
+            </div>
+
+            <div class="card">
+                 
+                <h3 style="color: brown;">Projects</h3> 
+                <ul>    
+                <li>Information System of Kayah State</li>
+                <li>Information System of Computer University(Loikaw)</li>
+                </ul>
+            </div>  
+            </div>
+        </div>
+
+        
+        
+    </body>
+</html>
